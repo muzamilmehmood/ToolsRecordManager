@@ -1,0 +1,67 @@
+﻿<Window x:Class="Record_Manager.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Record_Manager"
+        mc:Ignorable="d"
+        Title="Tools Record Manager" Height="350" Width="800" WindowStartupLocation="CenterScreen" FontSize="14" WindowStyle="None" ResizeMode="NoResize" AllowsTransparency="True" Background="Transparent" Icon="appicon.png" >
+
+
+    <Grid Background="#FFEAECEE">
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="40" />
+        </Grid.RowDefinitions>
+
+
+        <Rectangle Grid.Column="0" Grid.ColumnSpan="3" Fill="#FFFFC000" Width="780" Height="15"  />
+
+
+        <StackPanel Grid.Column="2" Grid.Row="1" Margin="20">
+            <Label Content="Username:" />
+            <TextBox x:Name="username" Margin="0,0,0,10" Height="25"/>
+
+            <Label Content="Password:" />
+            <PasswordBox x:Name="password" Margin="0,0,0,40" Height="25"/>
+
+            <Button x:Name="sign_in"
+                    Content="Sign In" Height="25"
+                    Margin="0,0,0,10"
+                    Background="#FF1A7FE4" Foreground="White"
+                    Click="sign_in_Click"/>
+
+            <Button x:Name="close"
+                    Content="Close"  Height="25"
+                    Click="close_Click"  
+                    Background="#FFB81E1E" Foreground="White" />
+
+        </StackPanel>
+
+        <StackPanel Margin="20" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2"
+                    VerticalAlignment="Center">
+            <Label Content="Tips:" FontStyle="Italic" />
+            <Label Content="Authenticated users are allowed only." />
+            <Label Content="Remember to Export the data before an Update." />
+            <Label Content="It is recommended to import the data only after an Update." />
+            <Label Content="Importing the same data without any need could cause data redundancies." />
+            <Label Content="Data input validation has not yet implemented." />
+            <Label Content="Therefore, only provide valid data input to avoid potential crashes." />
+
+        </StackPanel>
+
+        <Border Grid.Column="1" Grid.Row="1"
+                Height="250" Width="2" BorderThickness="2"
+                BorderBrush="Gray" HorizontalAlignment="Right"/>
+
+    </Grid>
+
+</Window>

@@ -1,0 +1,258 @@
+﻿[31/08/21 21:34:29] info: Program: Starting Squirrel Updater: --releasify TRM.1.0.0.nupkg
+[31/08/21 21:34:29] info: Program: Bootstrapper EXE found at:C:\Users\HP\source\repos\Record Manager\packages\squirrel.windows.2.0.1\tools\Setup.exe
+[31/08/21 21:34:29] info: Program: Creating release package: C:\Users\HP\source\repos\Record Manager\Releases\TRM.1.0.0.nupkg
+[31/08/21 21:34:29] info: ReleasePackage: Creating release package: C:\Users\HP\source\repos\Record Manager\Releases\TRM.1.0.0.nupkg => C:\Users\HP\source\repos\Record Manager\Releases\TRM-1.0.0-full.nupkg
+[31/08/21 21:34:30] info: ReleasePackage: Extracting dependent packages: []
+[31/08/21 21:34:30] info: ReleasePackage: Removing unnecessary data
+[31/08/21 21:34:30] info: ReleasePackage: No release notes found in C:\Users\HP\AppData\Local\SquirrelTemp\tempa\TRM.nuspec
+[31/08/21 21:34:32] info: Program: Building embedded zip file for Setup.exe
+[31/08/21 21:34:39] info: Program: Finished Squirrel Updater
+[31/08/21 23:14:35] info: Program: Starting Squirrel Updater: --releasify TRM.1.0.1.nupkg
+[31/08/21 23:14:35] info: Program: Bootstrapper EXE found at:C:\Users\HP\source\repos\Record Manager\packages\squirrel.windows.2.0.1\tools\Setup.exe
+[31/08/21 23:14:35] info: Program: Creating release package: C:\Users\HP\source\repos\Record Manager\Releases\TRM.1.0.1.nupkg
+[31/08/21 23:14:35] info: ReleasePackage: Creating release package: C:\Users\HP\source\repos\Record Manager\Releases\TRM.1.0.1.nupkg => C:\Users\HP\source\repos\Record Manager\Releases\TRM-1.0.1-full.nupkg
+[31/08/21 23:14:35] info: ReleasePackage: Extracting dependent packages: []
+[31/08/21 23:14:35] info: ReleasePackage: Removing unnecessary data
+[31/08/21 23:14:35] info: ReleasePackage: No release notes found in C:\Users\HP\AppData\Local\SquirrelTemp\tempa\TRM.nuspec
+[31/08/21 23:14:36] info: DeltaPackageBuilder: Extracting .\Releases\TRM-1.0.0-full.nupkg and C:\Users\HP\source\repos\Record Manager\Releases\TRM-1.0.1-full.nupkg into C:\Users\HP\AppData\Local\SquirrelTemp\tempb
+[31/08/21 23:14:37] info: DeltaPackageBuilder: \lib\net472\Dapper.dll hasn't changed, writing dummy file
+[31/08/21 23:14:37] info: DeltaPackageBuilder: \lib\net472\DeltaCompressionDotNet.dll hasn't changed, writing dummy file
+[31/08/21 23:14:37] info: DeltaPackageBuilder: \lib\net472\DeltaCompressionDotNet.MsDelta.dll hasn't changed, writing dummy file
+[31/08/21 23:14:37] info: DeltaPackageBuilder: \lib\net472\DeltaCompressionDotNet.PatchApi.dll hasn't changed, writing dummy file
+[31/08/21 23:14:37] info: DeltaPackageBuilder: \lib\net472\Mono.Cecil.dll hasn't changed, writing dummy file
+[31/08/21 23:14:37] info: DeltaPackageBuilder: \lib\net472\Mono.Cecil.Mdb.dll hasn't changed, writing dummy file
+[31/08/21 23:14:37] info: DeltaPackageBuilder: \lib\net472\Mono.Cecil.Pdb.dll hasn't changed, writing dummy file
+[31/08/21 23:14:37] info: DeltaPackageBuilder: \lib\net472\Mono.Cecil.Rocks.dll hasn't changed, writing dummy file
+[31/08/21 23:14:37] info: DeltaPackageBuilder: \lib\net472\NuGet.Squirrel.dll hasn't changed, writing dummy file
+[31/08/21 23:14:37] info: DeltaPackageBuilder: Delta patching C:\Users\HP\AppData\Local\SquirrelTemp\tempa\lib\net472\Record Manager.application => C:\Users\HP\AppData\Local\SquirrelTemp\tempb\lib\net472\Record Manager.application
+[31/08/21 23:14:37] warn: DeltaPackageBuilder: We really couldn't create a delta for Record Manager.application: System.DivideByZeroException: Attempted to divide by zero.
+   at Squirrel.Bsdiff.BinaryPatchUtility.Create(Byte[] oldData, Byte[] newData, Stream output)
+   at Squirrel.DeltaPackageBuilder.createDeltaForSingleFile(FileInfo targetFile, DirectoryInfo workingDirectory, Dictionary`2 baseFileListing)
+[31/08/21 23:14:38] info: DeltaPackageBuilder: Delta patching C:\Users\HP\AppData\Local\SquirrelTemp\tempa\lib\net472\Record Manager.exe => C:\Users\HP\AppData\Local\SquirrelTemp\tempb\lib\net472\Record Manager.exe
+[31/08/21 23:14:38] info: DeltaPackageBuilder: \lib\net472\Record Manager.exe.config hasn't changed, writing dummy file
+[31/08/21 23:14:38] info: DeltaPackageBuilder: Delta patching C:\Users\HP\AppData\Local\SquirrelTemp\tempa\lib\net472\Record Manager.exe.manifest => C:\Users\HP\AppData\Local\SquirrelTemp\tempb\lib\net472\Record Manager.exe.manifest
+[31/08/21 23:14:38] warn: DeltaPackageBuilder: We really couldn't create a delta for Record Manager.exe.manifest: System.DivideByZeroException: Attempted to divide by zero.
+   at Squirrel.Bsdiff.BinaryPatchUtility.Create(Byte[] oldData, Byte[] newData, Stream output)
+   at Squirrel.DeltaPackageBuilder.createDeltaForSingleFile(FileInfo targetFile, DirectoryInfo workingDirectory, Dictionary`2 baseFileListing)
+[31/08/21 23:14:38] info: DeltaPackageBuilder: \lib\net472\Record Manager.pdb not found in base package, marking as new
+[31/08/21 23:14:38] info: DeltaPackageBuilder: \lib\net472\Record Manager_ExecutionStub.exe hasn't changed, writing dummy file
+[31/08/21 23:14:38] info: DeltaPackageBuilder: \lib\net472\SharpCompress.dll hasn't changed, writing dummy file
+[31/08/21 23:14:38] info: DeltaPackageBuilder: \lib\net472\Squirrel.dll hasn't changed, writing dummy file
+[31/08/21 23:14:38] info: DeltaPackageBuilder: \lib\net472\System.Data.SQLite.dll hasn't changed, writing dummy file
+[31/08/21 23:14:38] info: DeltaPackageBuilder: \lib\net472\trmDB.db hasn't changed, writing dummy file
+[31/08/21 23:14:39] info: DeltaPackageBuilder: \lib\net472\x64\SQLite.Interop.dll hasn't changed, writing dummy file
+[31/08/21 23:14:39] info: DeltaPackageBuilder: \lib\net472\x86\SQLite.Interop.dll hasn't changed, writing dummy file
+[31/08/21 23:14:39] info: Program: Building embedded zip file for Setup.exe
+[31/08/21 23:14:45] info: Program: Finished Squirrel Updater
+[01/09/21 03:30:55] info: Program: Starting Squirrel Updater: --releasify TRM.1.0.2.nupkg
+[01/09/21 03:30:55] info: Program: Bootstrapper EXE found at:C:\Users\HP\source\repos\Record Manager\packages\squirrel.windows.2.0.1\tools\Setup.exe
+[01/09/21 03:30:55] info: Program: Creating release package: C:\Users\HP\source\repos\Record Manager\Releases\TRM.1.0.2.nupkg
+[01/09/21 03:30:55] info: ReleasePackage: Creating release package: C:\Users\HP\source\repos\Record Manager\Releases\TRM.1.0.2.nupkg => C:\Users\HP\source\repos\Record Manager\Releases\TRM-1.0.2-full.nupkg
+[01/09/21 03:30:55] info: ReleasePackage: Extracting dependent packages: []
+[01/09/21 03:30:55] info: ReleasePackage: Removing unnecessary data
+[01/09/21 03:30:55] info: ReleasePackage: No release notes found in C:\Users\HP\AppData\Local\SquirrelTemp\tempa\TRM.nuspec
+[01/09/21 03:30:56] info: DeltaPackageBuilder: Extracting .\Releases\TRM-1.0.1-full.nupkg and C:\Users\HP\source\repos\Record Manager\Releases\TRM-1.0.2-full.nupkg into C:\Users\HP\AppData\Local\SquirrelTemp\tempb
+[01/09/21 03:30:57] info: DeltaPackageBuilder: \lib\net472\Dapper.dll hasn't changed, writing dummy file
+[01/09/21 03:30:57] info: DeltaPackageBuilder: \lib\net472\DeltaCompressionDotNet.dll hasn't changed, writing dummy file
+[01/09/21 03:30:57] info: DeltaPackageBuilder: \lib\net472\DeltaCompressionDotNet.MsDelta.dll hasn't changed, writing dummy file
+[01/09/21 03:30:57] info: DeltaPackageBuilder: \lib\net472\DeltaCompressionDotNet.PatchApi.dll hasn't changed, writing dummy file
+[01/09/21 03:30:57] info: DeltaPackageBuilder: \lib\net472\Mono.Cecil.dll hasn't changed, writing dummy file
+[01/09/21 03:30:57] info: DeltaPackageBuilder: \lib\net472\Mono.Cecil.Mdb.dll hasn't changed, writing dummy file
+[01/09/21 03:30:57] info: DeltaPackageBuilder: \lib\net472\Mono.Cecil.Pdb.dll hasn't changed, writing dummy file
+[01/09/21 03:30:57] info: DeltaPackageBuilder: \lib\net472\Mono.Cecil.Rocks.dll hasn't changed, writing dummy file
+[01/09/21 03:30:58] info: DeltaPackageBuilder: \lib\net472\NuGet.Squirrel.dll hasn't changed, writing dummy file
+[01/09/21 03:30:58] info: DeltaPackageBuilder: \lib\net472\NuGet.Squirrel.pdb not found in base package, marking as new
+[01/09/21 03:30:58] info: DeltaPackageBuilder: Delta patching C:\Users\HP\AppData\Local\SquirrelTemp\tempa\lib\net472\Record Manager.application => C:\Users\HP\AppData\Local\SquirrelTemp\tempb\lib\net472\Record Manager.application
+[01/09/21 03:30:58] warn: DeltaPackageBuilder: We really couldn't create a delta for Record Manager.application: System.DivideByZeroException: Attempted to divide by zero.
+   at Squirrel.Bsdiff.BinaryPatchUtility.Create(Byte[] oldData, Byte[] newData, Stream output)
+   at Squirrel.DeltaPackageBuilder.createDeltaForSingleFile(FileInfo targetFile, DirectoryInfo workingDirectory, Dictionary`2 baseFileListing)
+[01/09/21 03:30:58] info: DeltaPackageBuilder: Delta patching C:\Users\HP\AppData\Local\SquirrelTemp\tempa\lib\net472\Record Manager.exe => C:\Users\HP\AppData\Local\SquirrelTemp\tempb\lib\net472\Record Manager.exe
+[01/09/21 03:30:58] info: DeltaPackageBuilder: \lib\net472\Record Manager.exe.config hasn't changed, writing dummy file
+[01/09/21 03:30:58] info: DeltaPackageBuilder: Delta patching C:\Users\HP\AppData\Local\SquirrelTemp\tempa\lib\net472\Record Manager.exe.manifest => C:\Users\HP\AppData\Local\SquirrelTemp\tempb\lib\net472\Record Manager.exe.manifest
+[01/09/21 03:30:58] warn: DeltaPackageBuilder: We really couldn't create a delta for Record Manager.exe.manifest: System.DivideByZeroException: Attempted to divide by zero.
+   at Squirrel.Bsdiff.BinaryPatchUtility.Create(Byte[] oldData, Byte[] newData, Stream output)
+   at Squirrel.DeltaPackageBuilder.createDeltaForSingleFile(FileInfo targetFile, DirectoryInfo workingDirectory, Dictionary`2 baseFileListing)
+[01/09/21 03:30:58] info: DeltaPackageBuilder: \lib\net472\Record Manager.pdb hasn't changed, writing dummy file
+[01/09/21 03:30:58] info: DeltaPackageBuilder: Delta patching C:\Users\HP\AppData\Local\SquirrelTemp\tempa\lib\net472\Record Manager_ExecutionStub.exe => C:\Users\HP\AppData\Local\SquirrelTemp\tempb\lib\net472\Record Manager_ExecutionStub.exe
+[01/09/21 03:30:58] info: DeltaPackageBuilder: \lib\net472\SharpCompress.dll hasn't changed, writing dummy file
+[01/09/21 03:30:59] info: DeltaPackageBuilder: \lib\net472\Squirrel.dll hasn't changed, writing dummy file
+[01/09/21 03:30:59] info: DeltaPackageBuilder: \lib\net472\System.Data.SQLite.dll hasn't changed, writing dummy file
+[01/09/21 03:30:59] info: DeltaPackageBuilder: \lib\net472\trmDB.db hasn't changed, writing dummy file
+[01/09/21 03:30:59] info: DeltaPackageBuilder: \lib\net472\x64\SQLite.Interop.dll hasn't changed, writing dummy file
+[01/09/21 03:30:59] info: DeltaPackageBuilder: \lib\net472\x86\SQLite.Interop.dll hasn't changed, writing dummy file
+[01/09/21 03:30:59] info: Program: Building embedded zip file for Setup.exe
+[01/09/21 03:31:05] info: Program: Finished Squirrel Updater
+[01/09/21 09:11:46] info: Program: Starting Squirrel Updater: --releasify TRM.1.0.6.nupkg
+[01/09/21 09:11:46] info: Program: Bootstrapper EXE found at:C:\Users\HP\source\repos\Record Manager\packages\squirrel.windows.2.0.1\tools\Setup.exe
+[01/09/21 09:11:46] info: Program: Creating release package: C:\Users\HP\source\repos\Record Manager\Releases\TRM.1.0.6.nupkg
+[01/09/21 09:11:46] info: ReleasePackage: Creating release package: C:\Users\HP\source\repos\Record Manager\Releases\TRM.1.0.6.nupkg => C:\Users\HP\source\repos\Record Manager\Releases\TRM-1.0.6-full.nupkg
+[01/09/21 09:11:47] info: ReleasePackage: Extracting dependent packages: []
+[01/09/21 09:11:47] info: ReleasePackage: Removing unnecessary data
+[01/09/21 09:11:47] info: ReleasePackage: No release notes found in C:\Users\HP\AppData\Local\SquirrelTemp\tempa\TRM.nuspec
+[01/09/21 09:11:48] info: Program: Building embedded zip file for Setup.exe
+[01/09/21 09:11:54] info: Program: Finished Squirrel Updater
+[01/09/21 09:16:59] info: Program: Starting Squirrel Updater: --releasify TRM.1.0.6.nupkg
+[01/09/21 09:16:59] info: Program: Bootstrapper EXE found at:C:\Users\HP\source\repos\Record Manager\packages\squirrel.windows.2.0.1\tools\Setup.exe
+[01/09/21 09:16:59] info: Program: Creating release package: C:\Users\HP\source\repos\Record Manager\Releases\TRM.1.0.6.nupkg
+[01/09/21 09:16:59] info: ReleasePackage: Creating release package: C:\Users\HP\source\repos\Record Manager\Releases\TRM.1.0.6.nupkg => C:\Users\HP\source\repos\Record Manager\Releases\TRM-1.0.6-full.nupkg
+[01/09/21 09:16:59] info: ReleasePackage: Extracting dependent packages: []
+[01/09/21 09:16:59] info: ReleasePackage: Removing unnecessary data
+[01/09/21 09:16:59] info: ReleasePackage: No release notes found in C:\Users\HP\AppData\Local\SquirrelTemp\tempa\TRM.nuspec
+[01/09/21 09:17:01] info: Program: Building embedded zip file for Setup.exe
+[01/09/21 09:17:07] info: Program: Finished Squirrel Updater
+[02/09/21 03:13:22] info: Program: Starting Squirrel Updater: --releasify TRM.1.1.8.nupkg
+[02/09/21 03:13:22] info: Program: Bootstrapper EXE found at:C:\Users\HP\source\repos\Record Manager\packages\squirrel.windows.2.0.1\tools\Setup.exe
+[02/09/21 03:13:22] info: Program: Creating release package: C:\Users\HP\source\repos\Record Manager\Releases\TRM.1.1.8.nupkg
+[02/09/21 03:13:22] info: ReleasePackage: Creating release package: C:\Users\HP\source\repos\Record Manager\Releases\TRM.1.1.8.nupkg => C:\Users\HP\source\repos\Record Manager\Releases\TRM-1.1.8-full.nupkg
+[02/09/21 03:13:23] info: ReleasePackage: Extracting dependent packages: []
+[02/09/21 03:13:23] info: ReleasePackage: Removing unnecessary data
+[02/09/21 03:13:23] info: ReleasePackage: No release notes found in C:\Users\HP\AppData\Local\SquirrelTemp\tempa\TRM.nuspec
+[02/09/21 03:13:25] info: DeltaPackageBuilder: Extracting .\Releases\TRM-1.0.6-full.nupkg and C:\Users\HP\source\repos\Record Manager\Releases\TRM-1.1.8-full.nupkg into C:\Users\HP\AppData\Local\SquirrelTemp\tempb
+[02/09/21 03:13:25] info: DeltaPackageBuilder: \lib\net472\Dapper.dll hasn't changed, writing dummy file
+[02/09/21 03:13:25] info: DeltaPackageBuilder: \lib\net472\DeltaCompressionDotNet.dll hasn't changed, writing dummy file
+[02/09/21 03:13:25] info: DeltaPackageBuilder: \lib\net472\DeltaCompressionDotNet.MsDelta.dll hasn't changed, writing dummy file
+[02/09/21 03:13:25] info: DeltaPackageBuilder: \lib\net472\DeltaCompressionDotNet.PatchApi.dll hasn't changed, writing dummy file
+[02/09/21 03:13:26] info: DeltaPackageBuilder: \lib\net472\EPPlus.dll hasn't changed, writing dummy file
+[02/09/21 03:13:26] info: DeltaPackageBuilder: \lib\net472\Microsoft.IO.RecyclableMemoryStream.dll hasn't changed, writing dummy file
+[02/09/21 03:13:26] info: DeltaPackageBuilder: \lib\net472\Mono.Cecil.dll hasn't changed, writing dummy file
+[02/09/21 03:13:26] info: DeltaPackageBuilder: \lib\net472\Mono.Cecil.Mdb.dll hasn't changed, writing dummy file
+[02/09/21 03:13:26] info: DeltaPackageBuilder: \lib\net472\Mono.Cecil.Pdb.dll hasn't changed, writing dummy file
+[02/09/21 03:13:26] info: DeltaPackageBuilder: \lib\net472\Mono.Cecil.Rocks.dll hasn't changed, writing dummy file
+[02/09/21 03:13:26] info: DeltaPackageBuilder: \lib\net472\NuGet.Squirrel.dll hasn't changed, writing dummy file
+[02/09/21 03:13:26] info: DeltaPackageBuilder: Delta patching C:\Users\HP\AppData\Local\SquirrelTemp\tempa\lib\net472\Record Manager.application => C:\Users\HP\AppData\Local\SquirrelTemp\tempb\lib\net472\Record Manager.application
+[02/09/21 03:13:26] warn: DeltaPackageBuilder: We really couldn't create a delta for Record Manager.application: System.DivideByZeroException: Attempted to divide by zero.
+   at Squirrel.Bsdiff.BinaryPatchUtility.Create(Byte[] oldData, Byte[] newData, Stream output)
+   at Squirrel.DeltaPackageBuilder.createDeltaForSingleFile(FileInfo targetFile, DirectoryInfo workingDirectory, Dictionary`2 baseFileListing)
+[02/09/21 03:13:26] info: DeltaPackageBuilder: Delta patching C:\Users\HP\AppData\Local\SquirrelTemp\tempa\lib\net472\Record Manager.exe => C:\Users\HP\AppData\Local\SquirrelTemp\tempb\lib\net472\Record Manager.exe
+[02/09/21 03:13:27] info: DeltaPackageBuilder: \lib\net472\Record Manager.exe.config hasn't changed, writing dummy file
+[02/09/21 03:13:27] info: DeltaPackageBuilder: Delta patching C:\Users\HP\AppData\Local\SquirrelTemp\tempa\lib\net472\Record Manager.exe.manifest => C:\Users\HP\AppData\Local\SquirrelTemp\tempb\lib\net472\Record Manager.exe.manifest
+[02/09/21 03:13:27] warn: DeltaPackageBuilder: We really couldn't create a delta for Record Manager.exe.manifest: System.DivideByZeroException: Attempted to divide by zero.
+   at Squirrel.Bsdiff.BinaryPatchUtility.Create(Byte[] oldData, Byte[] newData, Stream output)
+   at Squirrel.DeltaPackageBuilder.createDeltaForSingleFile(FileInfo targetFile, DirectoryInfo workingDirectory, Dictionary`2 baseFileListing)
+[02/09/21 03:13:27] info: DeltaPackageBuilder: Delta patching C:\Users\HP\AppData\Local\SquirrelTemp\tempa\lib\net472\Record Manager_ExecutionStub.exe => C:\Users\HP\AppData\Local\SquirrelTemp\tempb\lib\net472\Record Manager_ExecutionStub.exe
+[02/09/21 03:13:27] info: DeltaPackageBuilder: \lib\net472\SharpCompress.dll hasn't changed, writing dummy file
+[02/09/21 03:13:27] info: DeltaPackageBuilder: \lib\net472\Squirrel.dll hasn't changed, writing dummy file
+[02/09/21 03:13:27] info: DeltaPackageBuilder: \lib\net472\System.ComponentModel.Annotations.dll hasn't changed, writing dummy file
+[02/09/21 03:13:28] info: DeltaPackageBuilder: \lib\net472\System.Data.SQLite.dll hasn't changed, writing dummy file
+[02/09/21 03:13:28] info: DeltaPackageBuilder: \lib\net472\trmDB.db hasn't changed, writing dummy file
+[02/09/21 03:13:28] info: DeltaPackageBuilder: \lib\net472\x64\SQLite.Interop.dll hasn't changed, writing dummy file
+[02/09/21 03:13:28] info: DeltaPackageBuilder: \lib\net472\x86\SQLite.Interop.dll hasn't changed, writing dummy file
+[02/09/21 03:13:28] info: Program: Building embedded zip file for Setup.exe
+[02/09/21 03:13:37] info: Program: Finished Squirrel Updater
+[02/09/21 09:12:50] info: Program: Starting Squirrel Updater: --releasify TRM.1.1.8.nupkg
+[02/09/21 09:12:50] info: Program: Bootstrapper EXE found at:C:\Users\HP\source\repos\Record Manager\packages\squirrel.windows.2.0.1\tools\Setup.exe
+[02/09/21 09:12:50] info: Program: Creating release package: C:\Users\HP\source\repos\Record Manager\Releases\TRM.1.1.8.nupkg
+[02/09/21 09:12:50] info: ReleasePackage: Creating release package: C:\Users\HP\source\repos\Record Manager\Releases\TRM.1.1.8.nupkg => C:\Users\HP\source\repos\Record Manager\Releases\TRM-1.0.6-full.nupkg
+[02/09/21 09:12:50] info: ReleasePackage: Extracting dependent packages: []
+[02/09/21 09:12:50] info: ReleasePackage: Removing unnecessary data
+[02/09/21 09:12:50] info: ReleasePackage: No release notes found in C:\Users\HP\AppData\Local\SquirrelTemp\tempa\TRM.nuspec
+[02/09/21 09:12:52] info: Program: Building embedded zip file for Setup.exe
+[02/09/21 09:13:00] info: Program: Finished Squirrel Updater
+[02/09/21 09:16:28] info: Program: Starting Squirrel Updater: --releasify TRM.1.1.8.nupkg
+[02/09/21 09:16:28] info: Program: Bootstrapper EXE found at:C:\Users\HP\source\repos\Record Manager\packages\squirrel.windows.2.0.1\tools\Setup.exe
+[02/09/21 09:16:28] info: Program: Creating release package: C:\Users\HP\source\repos\Record Manager\Releases\TRM.1.1.8.nupkg
+[02/09/21 09:16:28] info: ReleasePackage: Creating release package: C:\Users\HP\source\repos\Record Manager\Releases\TRM.1.1.8.nupkg => C:\Users\HP\source\repos\Record Manager\Releases\TRM-1.0.6-full.nupkg
+[02/09/21 09:16:28] info: ReleasePackage: Extracting dependent packages: []
+[02/09/21 09:16:28] info: ReleasePackage: Removing unnecessary data
+[02/09/21 09:16:28] info: ReleasePackage: No release notes found in C:\Users\HP\AppData\Local\SquirrelTemp\tempa\TRM.nuspec
+[02/09/21 09:16:29] info: DeltaPackageBuilder: Extracting .\Releases\TRM-1.0.6-full.nupkg and C:\Users\HP\source\repos\Record Manager\Releases\TRM-1.0.6-full.nupkg into C:\Users\HP\AppData\Local\SquirrelTemp\tempb
+[02/09/21 09:16:30] info: DeltaPackageBuilder: \lib\net472\Dapper.dll hasn't changed, writing dummy file
+[02/09/21 09:16:30] info: DeltaPackageBuilder: \lib\net472\DeltaCompressionDotNet.dll hasn't changed, writing dummy file
+[02/09/21 09:16:30] info: DeltaPackageBuilder: \lib\net472\DeltaCompressionDotNet.MsDelta.dll hasn't changed, writing dummy file
+[02/09/21 09:16:30] info: DeltaPackageBuilder: \lib\net472\DeltaCompressionDotNet.PatchApi.dll hasn't changed, writing dummy file
+[02/09/21 09:16:30] info: DeltaPackageBuilder: \lib\net472\EPPlus.dll hasn't changed, writing dummy file
+[02/09/21 09:16:30] info: DeltaPackageBuilder: \lib\net472\Microsoft.IO.RecyclableMemoryStream.dll hasn't changed, writing dummy file
+[02/09/21 09:16:30] info: DeltaPackageBuilder: \lib\net472\Mono.Cecil.dll hasn't changed, writing dummy file
+[02/09/21 09:16:30] info: DeltaPackageBuilder: \lib\net472\Mono.Cecil.Mdb.dll hasn't changed, writing dummy file
+[02/09/21 09:16:31] info: DeltaPackageBuilder: \lib\net472\Mono.Cecil.Pdb.dll hasn't changed, writing dummy file
+[02/09/21 09:16:31] info: DeltaPackageBuilder: \lib\net472\Mono.Cecil.Rocks.dll hasn't changed, writing dummy file
+[02/09/21 09:16:31] info: DeltaPackageBuilder: \lib\net472\NuGet.Squirrel.dll hasn't changed, writing dummy file
+[02/09/21 09:16:31] info: DeltaPackageBuilder: \lib\net472\Record Manager.application hasn't changed, writing dummy file
+[02/09/21 09:16:31] info: DeltaPackageBuilder: \lib\net472\Record Manager.exe hasn't changed, writing dummy file
+[02/09/21 09:16:31] info: DeltaPackageBuilder: \lib\net472\Record Manager.exe.config hasn't changed, writing dummy file
+[02/09/21 09:16:31] info: DeltaPackageBuilder: \lib\net472\Record Manager.exe.manifest hasn't changed, writing dummy file
+[02/09/21 09:16:31] info: DeltaPackageBuilder: \lib\net472\Record Manager_ExecutionStub.exe hasn't changed, writing dummy file
+[02/09/21 09:16:31] info: DeltaPackageBuilder: \lib\net472\SharpCompress.dll hasn't changed, writing dummy file
+[02/09/21 09:16:31] info: DeltaPackageBuilder: \lib\net472\Squirrel.dll hasn't changed, writing dummy file
+[02/09/21 09:16:31] info: DeltaPackageBuilder: \lib\net472\System.ComponentModel.Annotations.dll hasn't changed, writing dummy file
+[02/09/21 09:16:31] info: DeltaPackageBuilder: \lib\net472\System.Data.SQLite.dll hasn't changed, writing dummy file
+[02/09/21 09:16:32] info: DeltaPackageBuilder: \lib\net472\trmDB.db hasn't changed, writing dummy file
+[02/09/21 09:16:32] info: DeltaPackageBuilder: \lib\net472\x64\SQLite.Interop.dll hasn't changed, writing dummy file
+[02/09/21 09:16:32] info: DeltaPackageBuilder: \lib\net472\x86\SQLite.Interop.dll hasn't changed, writing dummy file
+[02/09/21 09:16:32] info: Program: Building embedded zip file for Setup.exe
+[02/09/21 09:16:39] info: Program: Finished Squirrel Updater
+[02/09/21 09:17:15] info: Program: Starting Squirrel Updater: --releasify TRM.1.1.8.nupkg
+[02/09/21 09:17:15] info: Program: Bootstrapper EXE found at:C:\Users\HP\source\repos\Record Manager\packages\squirrel.windows.2.0.1\tools\Setup.exe
+[02/09/21 09:17:15] info: Program: Creating release package: C:\Users\HP\source\repos\Record Manager\Releases\TRM.1.1.8.nupkg
+[02/09/21 09:17:15] info: ReleasePackage: Creating release package: C:\Users\HP\source\repos\Record Manager\Releases\TRM.1.1.8.nupkg => C:\Users\HP\source\repos\Record Manager\Releases\TRM-1.0.6-full.nupkg
+[02/09/21 09:17:15] info: ReleasePackage: Extracting dependent packages: []
+[02/09/21 09:17:15] info: ReleasePackage: Removing unnecessary data
+[02/09/21 09:17:15] info: ReleasePackage: No release notes found in C:\Users\HP\AppData\Local\SquirrelTemp\tempa\TRM.nuspec
+[02/09/21 09:17:16] info: DeltaPackageBuilder: Extracting .\Releases\TRM-1.0.6-full.nupkg and C:\Users\HP\source\repos\Record Manager\Releases\TRM-1.0.6-full.nupkg into C:\Users\HP\AppData\Local\SquirrelTemp\tempb
+[02/09/21 09:17:17] info: DeltaPackageBuilder: \lib\net472\Dapper.dll hasn't changed, writing dummy file
+[02/09/21 09:17:17] info: DeltaPackageBuilder: \lib\net472\DeltaCompressionDotNet.dll hasn't changed, writing dummy file
+[02/09/21 09:17:17] info: DeltaPackageBuilder: \lib\net472\DeltaCompressionDotNet.MsDelta.dll hasn't changed, writing dummy file
+[02/09/21 09:17:17] info: DeltaPackageBuilder: \lib\net472\DeltaCompressionDotNet.PatchApi.dll hasn't changed, writing dummy file
+[02/09/21 09:17:17] info: DeltaPackageBuilder: \lib\net472\EPPlus.dll hasn't changed, writing dummy file
+[02/09/21 09:17:17] info: DeltaPackageBuilder: \lib\net472\Microsoft.IO.RecyclableMemoryStream.dll hasn't changed, writing dummy file
+[02/09/21 09:17:18] info: DeltaPackageBuilder: \lib\net472\Mono.Cecil.dll hasn't changed, writing dummy file
+[02/09/21 09:17:18] info: DeltaPackageBuilder: \lib\net472\Mono.Cecil.Mdb.dll hasn't changed, writing dummy file
+[02/09/21 09:17:18] info: DeltaPackageBuilder: \lib\net472\Mono.Cecil.Pdb.dll hasn't changed, writing dummy file
+[02/09/21 09:17:18] info: DeltaPackageBuilder: \lib\net472\Mono.Cecil.Rocks.dll hasn't changed, writing dummy file
+[02/09/21 09:17:18] info: DeltaPackageBuilder: \lib\net472\NuGet.Squirrel.dll hasn't changed, writing dummy file
+[02/09/21 09:17:18] info: DeltaPackageBuilder: \lib\net472\Record Manager.application hasn't changed, writing dummy file
+[02/09/21 09:17:18] info: DeltaPackageBuilder: \lib\net472\Record Manager.exe hasn't changed, writing dummy file
+[02/09/21 09:17:18] info: DeltaPackageBuilder: \lib\net472\Record Manager.exe.config hasn't changed, writing dummy file
+[02/09/21 09:17:18] info: DeltaPackageBuilder: \lib\net472\Record Manager.exe.manifest hasn't changed, writing dummy file
+[02/09/21 09:17:18] info: DeltaPackageBuilder: \lib\net472\Record Manager_ExecutionStub.exe hasn't changed, writing dummy file
+[02/09/21 09:17:18] info: DeltaPackageBuilder: \lib\net472\SharpCompress.dll hasn't changed, writing dummy file
+[02/09/21 09:17:18] info: DeltaPackageBuilder: \lib\net472\Squirrel.dll hasn't changed, writing dummy file
+[02/09/21 09:17:18] info: DeltaPackageBuilder: \lib\net472\System.ComponentModel.Annotations.dll hasn't changed, writing dummy file
+[02/09/21 09:17:19] info: DeltaPackageBuilder: \lib\net472\System.Data.SQLite.dll hasn't changed, writing dummy file
+[02/09/21 09:17:19] info: DeltaPackageBuilder: \lib\net472\trmDB.db hasn't changed, writing dummy file
+[02/09/21 09:17:19] info: DeltaPackageBuilder: \lib\net472\x64\SQLite.Interop.dll hasn't changed, writing dummy file
+[02/09/21 09:17:19] info: DeltaPackageBuilder: \lib\net472\x86\SQLite.Interop.dll hasn't changed, writing dummy file
+[02/09/21 09:17:19] info: Program: Building embedded zip file for Setup.exe
+[02/09/21 09:17:26] info: Program: Finished Squirrel Updater
+[02/09/21 09:21:47] info: Program: Starting Squirrel Updater: --releasify TRM.1.1.8.nupkg
+[02/09/21 09:21:47] info: Program: Bootstrapper EXE found at:C:\Users\HP\source\repos\Record Manager\packages\squirrel.windows.2.0.1\tools\Setup.exe
+[02/09/21 09:21:47] info: Program: Creating release package: C:\Users\HP\source\repos\Record Manager\Releases\TRM.1.1.8.nupkg
+[02/09/21 09:21:47] info: ReleasePackage: Creating release package: C:\Users\HP\source\repos\Record Manager\Releases\TRM.1.1.8.nupkg => C:\Users\HP\source\repos\Record Manager\Releases\TRM-1.1.8-full.nupkg
+[02/09/21 09:21:47] info: ReleasePackage: Extracting dependent packages: []
+[02/09/21 09:21:47] info: ReleasePackage: Removing unnecessary data
+[02/09/21 09:21:47] info: ReleasePackage: No release notes found in C:\Users\HP\AppData\Local\SquirrelTemp\tempa\TRM.nuspec
+[02/09/21 09:21:48] info: DeltaPackageBuilder: Extracting .\Releases\TRM-1.0.6-full.nupkg and C:\Users\HP\source\repos\Record Manager\Releases\TRM-1.1.8-full.nupkg into C:\Users\HP\AppData\Local\SquirrelTemp\tempb
+[02/09/21 09:21:49] info: DeltaPackageBuilder: \lib\net472\Dapper.dll hasn't changed, writing dummy file
+[02/09/21 09:21:49] info: DeltaPackageBuilder: \lib\net472\DeltaCompressionDotNet.dll hasn't changed, writing dummy file
+[02/09/21 09:21:49] info: DeltaPackageBuilder: \lib\net472\DeltaCompressionDotNet.MsDelta.dll hasn't changed, writing dummy file
+[02/09/21 09:21:49] info: DeltaPackageBuilder: \lib\net472\DeltaCompressionDotNet.PatchApi.dll hasn't changed, writing dummy file
+[02/09/21 09:21:49] info: DeltaPackageBuilder: \lib\net472\EPPlus.dll hasn't changed, writing dummy file
+[02/09/21 09:21:49] info: DeltaPackageBuilder: \lib\net472\Microsoft.IO.RecyclableMemoryStream.dll hasn't changed, writing dummy file
+[02/09/21 09:21:50] info: DeltaPackageBuilder: \lib\net472\Mono.Cecil.dll hasn't changed, writing dummy file
+[02/09/21 09:21:50] info: DeltaPackageBuilder: \lib\net472\Mono.Cecil.Mdb.dll hasn't changed, writing dummy file
+[02/09/21 09:21:50] info: DeltaPackageBuilder: \lib\net472\Mono.Cecil.Pdb.dll hasn't changed, writing dummy file
+[02/09/21 09:21:50] info: DeltaPackageBuilder: \lib\net472\Mono.Cecil.Rocks.dll hasn't changed, writing dummy file
+[02/09/21 09:21:50] info: DeltaPackageBuilder: \lib\net472\NuGet.Squirrel.dll hasn't changed, writing dummy file
+[02/09/21 09:21:50] info: DeltaPackageBuilder: \lib\net472\Record Manager.application hasn't changed, writing dummy file
+[02/09/21 09:21:50] info: DeltaPackageBuilder: \lib\net472\Record Manager.exe hasn't changed, writing dummy file
+[02/09/21 09:21:50] info: DeltaPackageBuilder: \lib\net472\Record Manager.exe.config hasn't changed, writing dummy file
+[02/09/21 09:21:50] info: DeltaPackageBuilder: \lib\net472\Record Manager.exe.manifest hasn't changed, writing dummy file
+[02/09/21 09:21:50] info: DeltaPackageBuilder: \lib\net472\Record Manager_ExecutionStub.exe hasn't changed, writing dummy file
+[02/09/21 09:21:50] info: DeltaPackageBuilder: \lib\net472\SharpCompress.dll hasn't changed, writing dummy file
+[02/09/21 09:21:51] info: DeltaPackageBuilder: \lib\net472\Squirrel.dll hasn't changed, writing dummy file
+[02/09/21 09:21:51] info: DeltaPackageBuilder: \lib\net472\System.ComponentModel.Annotations.dll hasn't changed, writing dummy file
+[02/09/21 09:21:51] info: DeltaPackageBuilder: \lib\net472\System.Data.SQLite.dll hasn't changed, writing dummy file
+[02/09/21 09:21:51] info: DeltaPackageBuilder: \lib\net472\trmDB.db hasn't changed, writing dummy file
+[02/09/21 09:21:51] info: DeltaPackageBuilder: \lib\net472\x64\SQLite.Interop.dll hasn't changed, writing dummy file
+[02/09/21 09:21:51] info: DeltaPackageBuilder: \lib\net472\x86\SQLite.Interop.dll hasn't changed, writing dummy file
+[02/09/21 09:21:51] info: Program: Building embedded zip file for Setup.exe
+[02/09/21 09:21:58] info: Program: Finished Squirrel Updater
+[02/09/21 09:27:55] info: Program: Starting Squirrel Updater: --releasify TRM.1.1.8.nupkg
+[02/09/21 09:27:55] info: Program: Bootstrapper EXE found at:C:\Users\HP\source\repos\Record Manager\packages\squirrel.windows.2.0.1\tools\Setup.exe
+[02/09/21 09:27:55] info: Program: Creating release package: C:\Users\HP\source\repos\Record Manager\Releases\TRM.1.1.8.nupkg
+[02/09/21 09:27:55] info: ReleasePackage: Creating release package: C:\Users\HP\source\repos\Record Manager\Releases\TRM.1.1.8.nupkg => C:\Users\HP\source\repos\Record Manager\Releases\TRM-1.1.8-full.nupkg
+[02/09/21 09:27:56] info: ReleasePackage: Extracting dependent packages: []
+[02/09/21 09:27:56] info: ReleasePackage: Removing unnecessary data
+[02/09/21 09:27:56] info: ReleasePackage: No release notes found in C:\Users\HP\AppData\Local\SquirrelTemp\tempa\TRM.nuspec
+[02/09/21 09:27:57] info: Program: Building embedded zip file for Setup.exe
+[02/09/21 09:28:04] info: Program: Finished Squirrel Updater

@@ -1,0 +1,59 @@
+C:\Users\HP\source\repos\Record Manager\Record Manager\bin\Debug\Record Manager.exe.config
+C:\Users\HP\source\repos\Record Manager\Record Manager\bin\Debug\Record Manager.exe
+C:\Users\HP\source\repos\Record Manager\Record Manager\bin\Debug\Record Manager.pdb
+C:\Users\HP\source\repos\Record Manager\Record Manager\obj\Debug\Record Manager.csprojAssemblyReference.cache
+C:\Users\HP\source\repos\Record Manager\Record Manager\obj\Debug\MainWindow.g.cs
+C:\Users\HP\source\repos\Record Manager\Record Manager\obj\Debug\App.g.cs
+C:\Users\HP\source\repos\Record Manager\Record Manager\obj\Debug\Record Manager_MarkupCompile.cache
+C:\Users\HP\source\repos\Record Manager\Record Manager\obj\Debug\Record Manager_MarkupCompile.lref
+C:\Users\HP\source\repos\Record Manager\Record Manager\obj\Debug\MainWindow.baml
+C:\Users\HP\source\repos\Record Manager\Record Manager\obj\Debug\Record Manager.g.resources
+C:\Users\HP\source\repos\Record Manager\Record Manager\obj\Debug\Record_Manager.Properties.Resources.resources
+C:\Users\HP\source\repos\Record Manager\Record Manager\obj\Debug\Record Manager.csproj.GenerateResource.cache
+C:\Users\HP\source\repos\Record Manager\Record Manager\obj\Debug\Record Manager.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\Record Manager\Record Manager\obj\Debug\Record Manager.exe
+C:\Users\HP\source\repos\Record Manager\Record Manager\obj\Debug\Record Manager.pdb
+C:\Users\HP\source\repos\Record Manager\Record Manager\obj\Debug\home.g.cs
+C:\Users\HP\source\repos\Record Manager\Record Manager\obj\Debug\home.baml
+C:\Users\HP\source\repos\Record Manager\Record Manager\obj\Debug\addUser.g.cs
+C:\Users\HP\source\repos\Record Manager\Record Manager\obj\Debug\addUser.baml
+C:\Users\HP\source\repos\Record Manager\Record Manager\obj\Debug\Record.g.cs
+C:\Users\HP\source\repos\Record Manager\Record Manager\obj\Debug\Record.baml
+C:\Users\HP\source\repos\Record Manager\Record Manager\bin\Debug\trmDB.db
+C:\Users\HP\source\repos\Record Manager\Record Manager\bin\Debug\System.Data.SQLite.dll
+C:\Users\HP\source\repos\Record Manager\Record Manager\bin\Debug\System.Data.SQLite.xml
+C:\Users\HP\source\repos\Record Manager\Record Manager\obj\Debug\Record Manager_Content.g.cs
+C:\Users\HP\source\repos\Record Manager\Record Manager\obj\Debug\Record Manager.csproj.CopyComplete
+C:\Users\HP\source\repos\Record Manager\Record Manager\bin\Debug\Dapper.dll
+C:\Users\HP\source\repos\Record Manager\Record Manager\bin\Debug\Dapper.xml
+C:\Users\HP\source\repos\Record Manager\Record Manager\obj\Debug\search.g.cs
+C:\Users\HP\source\repos\Record Manager\Record Manager\obj\Debug\search.baml
+C:\Users\HP\source\repos\Record Manager\Record Manager\obj\Debug\edit.g.cs
+C:\Users\HP\source\repos\Record Manager\Record Manager\obj\Debug\edit.baml
+C:\Users\HP\source\repos\Record Manager\Record Manager\obj\Debug\expirytoday.g.cs
+C:\Users\HP\source\repos\Record Manager\Record Manager\obj\Debug\expirytoday.baml
+C:\Users\HP\source\repos\Record Manager\Record Manager\bin\Debug\Record Manager.exe.manifest
+C:\Users\HP\source\repos\Record Manager\Record Manager\bin\Debug\Record Manager.application
+C:\Users\HP\source\repos\Record Manager\Record Manager\bin\Debug\DeltaCompressionDotNet.dll
+C:\Users\HP\source\repos\Record Manager\Record Manager\bin\Debug\DeltaCompressionDotNet.MsDelta.dll
+C:\Users\HP\source\repos\Record Manager\Record Manager\bin\Debug\DeltaCompressionDotNet.PatchApi.dll
+C:\Users\HP\source\repos\Record Manager\Record Manager\bin\Debug\Mono.Cecil.dll
+C:\Users\HP\source\repos\Record Manager\Record Manager\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\HP\source\repos\Record Manager\Record Manager\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\HP\source\repos\Record Manager\Record Manager\bin\Debug\Mono.Cecil.Rocks.dll
+C:\Users\HP\source\repos\Record Manager\Record Manager\bin\Debug\NuGet.Squirrel.dll
+C:\Users\HP\source\repos\Record Manager\Record Manager\bin\Debug\SharpCompress.dll
+C:\Users\HP\source\repos\Record Manager\Record Manager\bin\Debug\Squirrel.dll
+C:\Users\HP\source\repos\Record Manager\Record Manager\bin\Debug\Mono.Cecil.pdb
+C:\Users\HP\source\repos\Record Manager\Record Manager\bin\Debug\Mono.Cecil.Mdb.pdb
+C:\Users\HP\source\repos\Record Manager\Record Manager\bin\Debug\Mono.Cecil.Pdb.pdb
+C:\Users\HP\source\repos\Record Manager\Record Manager\bin\Debug\Mono.Cecil.Rocks.pdb
+C:\Users\HP\source\repos\Record Manager\Record Manager\bin\Debug\NuGet.Squirrel.pdb
+C:\Users\HP\source\repos\Record Manager\Record Manager\bin\Debug\Squirrel.pdb
+C:\Users\HP\source\repos\Record Manager\Record Manager\obj\Debug\Record Manager.exe.manifest
+C:\Users\HP\source\repos\Record Manager\Record Manager\obj\Debug\Record Manager.application
+C:\Users\HP\source\repos\Record Manager\Record Manager\bin\Debug\EPPlus.dll
+C:\Users\HP\source\repos\Record Manager\Record Manager\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\HP\source\repos\Record Manager\Record Manager\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\HP\source\repos\Record Manager\Record Manager\bin\Debug\EPPlus.xml
+C:\Users\HP\source\repos\Record Manager\Record Manager\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
